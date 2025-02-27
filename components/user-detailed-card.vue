@@ -22,7 +22,7 @@ defineProps<{
 			</div>
 			<div class="w-full flex items-start gap-2">
 				<span class="text-[16pt]">🤖 </span>
-				<h3 class="text-lg text-amber-700">
+				<h3 class="text-lg text-amber-700 sm:break-words break-all">
 					{{ user?.username }}
 				</h3>
 			</div>
@@ -35,7 +35,7 @@ defineProps<{
 
 			<div class="w-full flex items-center gap-2 text-blue-500">
 				<span class="text-[16pt]">🌐</span> <a
-					class="text-lg flex items-center"
+					class="text-lg flex items-center sm:break-words break-all"
 					:href="webProtocol(user.website)"
 					target="_blank"
 					@click.stop

@@ -38,7 +38,7 @@ defineProps<{
 			</div>
 			<div class="w-full flex items-center gap-2">
 				<span class="text-[16pt]">✉️</span>
-				<h3 class="text-lg text-amber-700">
+				<h3 class="text-lg text-amber-700 sm:break-words break-all">
 					{{ user?.email }}
 				</h3>
 			</div>
